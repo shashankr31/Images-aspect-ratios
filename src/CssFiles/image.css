@@ -1,0 +1,50 @@
+body {
+  background-color: 334155;
+  color: #334155;
+  font-family: Arial;
+}
+
+.txt-bld {
+  font-weight: 600;
+}
+
+.card-design {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  border: 1px solid #e9e9e9;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.card-tittle {
+  max-height: fit-content;
+  font-weight: 600;
+}
+
+.aspect-16-9 {
+  padding-top: 56.25%;
+  position: relative;
+  overflow: hidden;
+}
+
+.aspect-4-3 {
+  padding-top: 75%;
+  overflow: hidden;
+  position: relative;
+}
+
+.aspect-4-5 {
+  padding-top: 125%;
+  overflow: hidden;
+  position: relative;
+}
+
+.aspect-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
